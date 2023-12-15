@@ -1,1 +1,19 @@
-/*# sourceMappingURL=yoda.css.map */
+@font-face {
+  font-family: "Star-Wars";
+  src: url(../fonts/Starjedi.ttf) format("truetype");
+  font-weight: 600;
+}
+body {
+  font-family: "Star-Wars";
+  font-weight: 600;
+}
+
+h1 {
+  font-family: "Star-Wars";
+  font-weight: 600;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  color: green;
+}/*# sourceMappingURL=yoda.css.map */
