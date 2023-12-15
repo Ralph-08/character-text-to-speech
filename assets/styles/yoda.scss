@@ -13,13 +13,15 @@ h1,
 h2 {
     font-family: "Star-Wars", 'Courier New', 'Courier', 'monospace';
     font-weight: 600;
+    margin: 0;
+    padding: 0;
 }
 
 .main {
     background-color: rgba(217, 217, 217, 255);
-    // display: flex;
-    // flex-direction: column;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     &__title {
         text-align: center;
@@ -28,11 +30,14 @@ h2 {
     &__input {
         font-family: "Star-Wars";
         display: inline-block;
+        text-align: center;
+        width: 24rem;
     }
 
     &__button {
         background-color: rgba(0, 226, 120, 255);
         font-family: "Star-Wars";
+        width: 9.5rem;
         padding: 0.5rem;
 
         &--sound-icon {
