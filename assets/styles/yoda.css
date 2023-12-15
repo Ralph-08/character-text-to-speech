@@ -3,17 +3,58 @@
   src: url(../fonts/Starjedi.ttf) format("truetype");
   font-weight: 600;
 }
-body {
-  font-family: "Star-Wars";
+body,
+h1,
+h2,
+p,
+img {
+  font-family: "Star-Wars", "Courier New", "Courier", "monospace";
   font-weight: 600;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  font-family: "Star-Wars";
-  font-weight: 600;
+.main {
+  background-image: url("../images/");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-h2 {
-  font-family: "Courier New", Courier, monospace;
-  color: green;
+.main__title {
+  text-align: center;
+  margin: 1rem 0 0;
+}
+.main__image {
+  margin: 1rem 0 0;
+}
+.main__subheader {
+  margin: 1rem 0;
+}
+.main__input {
+  font-family: "Star-Wars";
+  display: inline-block;
+  text-align: left;
+  width: 24rem;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+.main__button {
+  background-color: rgb(0, 226, 120);
+  font-family: "Star-Wars";
+  width: 9.5rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+.main__button--sound-icon {
+  width: 1.5rem;
+  vertical-align: bottom;
+}
+.main__bottom-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+.main__bottom-text {
+  width: 14rem;
 }/*# sourceMappingURL=yoda.css.map */

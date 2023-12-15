@@ -7,13 +7,28 @@
     <link rel="stylesheet" href="../assets/styles/yoda.css">
     <title>Document</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js" defer></script>
-    <script src="../assets/scripts/yoda.js" defer></script>
+    <script src="../assets/scripts/ai-api.js" type="module" defer></script>
+    <script src="../assets/scripts/yoda.js" type="module" defer></script>
 
 
 </head>
 
 <body>
-
+    <main>
+        <section class="main">
+            <h1 class="main__title">Text to Yoda Translator</h1>
+            <img class="main__image" src="../assets/images/Yoda-main.png" alt="Yoda Staring Intently">
+            <p class="main__subheader">You want to say, What do?</p>
+            <textarea class="main__input" name="words" id="words" cols="30" rows="10"
+                placeholder="Here, your words, you will write"></textarea>
+            <button class="main__button" type="input">Speak Yoda <img class="main__button--sound-icon"
+                    src="../assets/images/sound-icon-white.png" alt=""></button>
+            <div class="main__bottom-content">
+                <img class="main__bottom-image" src="../assets/images/Yoda-speaks.png" alt="Yoda-speaking">
+                <p class="main__bottom-text">Strong with this one, the programming is.</p>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
