@@ -14,61 +14,43 @@ p,
 img {
     font-family: "Star-Wars", 'Courier New', 'Courier', 'monospace';
     font-weight: 600;
+}
+
+body,
+h1,
+h2 {
+    font-family: "Star-Wars", 'Courier New', 'Courier', 'monospace';
+    font-weight: 600;
     margin: 0;
     padding: 0;
 }
 
-
-
 .main {
-    background-image:url('../images/');
-    // background-color: rgba(217, 217, 217, 255);
+    background-color: rgba(217, 217, 217, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
-    // margin: 1rem 0;
 
     &__title {
         text-align: center;
-        margin: 1rem 0 0;
-    }
-    
-    &__image{
-        margin: 1rem 0 0;
-    }
-
-    &__subheader{
-        margin: 1rem 0;
     }
 
     &__input {
         font-family: "Star-Wars";
         display: inline-block;
-        text-align: left;
+        text-align: center;
         width: 24rem;
-        margin-bottom: 1rem;
-        padding-left: 0.5rem;
     }
 
     &__button {
         background-color: rgba(0, 226, 120, 255);
         font-family: "Star-Wars";
         width: 9.5rem;
-        margin-bottom: 1rem;
         padding: 0.5rem;
 
         &--sound-icon {
             width: 1.5rem;
             vertical-align: bottom;
         }
-    }
-    &__bottom-content{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding-bottom: 5rem;
-    }
-    &__bottom-text{
-        width: 14rem;
     }
 }
